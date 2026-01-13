@@ -1,0 +1,16 @@
+# Secrets
+src/config.h
+
+# Arduino build artifacts
+*.bin
+*.hex
+*.elf
+
+# VSCode / Arduino IDE
+.vscode/
+.idea/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
