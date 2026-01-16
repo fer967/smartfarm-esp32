@@ -10,7 +10,8 @@
 const char* ssid = "CHANGE_ME";
 const char* password = "CHANGE_ME";
 
-const char* serverUrl = "http://localhost:8000/api/v1/ingest/telemetry";
+const char* serverUrl ="https://smartfarm-cloud-vz6d.onrender.com/ingest/telemetry";
+
 const char* apiKey = "CHANGE_ME";
 
 DHT dht(PIN_DHT, DHTTYPE);
