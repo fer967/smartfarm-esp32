@@ -1,6 +1,11 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include "DHT.h"
+#include <WiFiClientSecure.h>
+
+WiFiClientSecure client;
+client.setInsecure();  // desactiva validación SSL
+
 
 #define PIN_TRIG 33
 #define PIN_ECHO 35
